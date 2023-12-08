@@ -24,4 +24,3 @@ while True:
     print(f'Caso {cont}: {menor} {maior}')
     
     cont += 1
-

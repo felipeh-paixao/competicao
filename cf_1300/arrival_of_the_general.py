@@ -17,7 +17,6 @@ menor = aux
 resultado = 0
 if maior > menor:
     resultado = maior + ((n - 1) - menor) - 1
-    print(resultado)
 else:
     resultado = maior + ((n - 1) - menor)
 print(resultado)

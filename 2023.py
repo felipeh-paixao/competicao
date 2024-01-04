@@ -14,7 +14,7 @@ while(t):
         maior = b
     
     if menor == 1:
-        print(maior * 2)
+        print(maior * maior)
     elif maior % menor == 0:
         aux = maior / menor
         print(int(maior * aux))
@@ -22,10 +22,5 @@ while(t):
         print(int((maior / 2) * menor))
     else:
         print(maior * menor)
-
-
-
-
-
 
     t -= 1

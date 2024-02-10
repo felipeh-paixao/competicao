@@ -13,8 +13,11 @@ for i in queries:
     if i in valores:
         aux = valores[i]
     else:
-        aux = numeros.index(i)
-        valores[i] = aux        
+        if i in numeros:
+            aux = numeros.index(i)
+            valores[i] = aux
+        else:
+            continue       
     
     vasya += aux + 1 
     petya += n - aux

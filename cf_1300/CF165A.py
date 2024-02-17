@@ -19,7 +19,7 @@ for ponto in pontos:
       if ponto[1] > pontos[j][1]:
         maior_y = 1        
       if ponto[1] < pontos[j][1]:
-        menor_y += 1
+        menor_y = 1
     if ponto[1] == pontos[j][1]:      
       if ponto[0] > pontos[j][0]:
         maior_x = 1
